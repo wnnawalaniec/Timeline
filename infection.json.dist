@@ -1,0 +1,18 @@
+{
+    "timeout": 10,
+    "source": {
+        "directories": [
+            "src"
+        ]
+    },
+    "logs": {
+        "text": "logs\/infection.log"
+    },
+    "tmpDir": "tmp",
+    "phpUnit": {
+        "configDir": "./"
+    },
+    "mutators": {
+        "@default": true
+    }
+}

@@ -1,0 +1,48 @@
+grumphp:
+    tasks:
+        clover_coverage:
+            clover_file: report/clover.xml
+            level: 100
+        infection:
+            threads: ~
+            test_framework: ~
+            only_covered: false
+            configuration: ~
+            mutators: []
+            ignore_patterns: []
+            triggered_by: [php]
+        phpcs:
+            standard: [PSR2]
+            severity: ~
+            error_severity: ~
+            warning_severity: ~
+            tab_width: ~
+            report: full
+            report_width: ~
+            whitelist_patterns: []
+            encoding: ~
+            ignore_patterns: [tests]
+            sniffs: []
+            triggered_by: [php]
+            exclude: []
+        phpstan:
+            autoload_file: ~
+            configuration: ~
+            level: 7
+            force_patterns: []
+            ignore_patterns: [tests]
+            triggered_by: ['php']
+            memory_limit: ~
+        phpunit:
+            config_file: ~
+            testsuite: ~
+            group: []
+            always_execute: false
+        git_blacklist:
+            keywords:
+                - "die("
+                - "var_dump("
+                - "exit;"
+            whitelist_patterns: []
+            triggered_by: ['php']
+            regexp_type: G

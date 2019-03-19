@@ -1,0 +1,7 @@
+.idea
+logs
+report
+vendor
+infection.json
+phpunit.xml
+tmp
