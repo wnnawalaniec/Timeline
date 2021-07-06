@@ -3,7 +3,7 @@
     "description": "Simple lib for managing and organizing events in time.",
     "type": "library",
     "require": {
-        "php": "^7.1|^7.3|^7.4"
+        "php": "^7.1|^7.3|^7.4|^8.0"
     },
     "license": "MIT",
     "require-dev": {
