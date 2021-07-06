@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/wnnawalaniec/Timeline.svg?branch=master)](https://travis-ci.com/wnnawalaniec/Timeline)
+
 # Timeline
 
 This is small PHP lib to help you manage events on timeline.
