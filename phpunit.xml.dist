@@ -8,7 +8,7 @@
             <directory>src</directory>
         </include>
         <report>
-            <clover outputFile="./report/clover.xml"/>
+            <clover outputFile="./build/logs/clover.xml"/>
             <html outputDirectory="./report/coverage/"/>
         </report>
     </coverage>

@@ -5,3 +5,4 @@ vendor
 infection.json
 phpunit.xml
 tmp
+build
