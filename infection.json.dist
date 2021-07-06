@@ -6,7 +6,10 @@
         ]
     },
     "logs": {
-        "text": "logs\/infection.log"
+        "text": "logs\/infection.log",
+        "badge": {
+            "branch": "master"
+        }
     },
     "tmpDir": "tmp",
     "phpUnit": {
